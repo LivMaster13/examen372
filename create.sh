@@ -31,3 +31,17 @@ for x in $( seq 1 $numfiles )
 do
     echo "Archivo ${x}" > "file${x}.txt"
 done
+
+mv style.css css/
+
+mv file1.txt docs/text/
+mv file2.txt docs/text/
+mv file3.txt docs/text/
+mv file4.txt docs/text/
+mv file5.txt docs/text/
+
+mv main.py docs/python
+
+mv app.js js/
+
+mv meme.jpg img/

@@ -15,22 +15,22 @@
 
 ### Intrucciones Examen 🧐:
 
-- [x ] Coloca tu nombre aqui: _`"Karen Livier Orozco Franco"`_
-- [ x] Abre el shell/terminal _`"Git Bash"`_
-- [ x] Limpia el historial de tu consola: _`"history -c"`_
-- [x ] Navega al directorio home del usuario. _`"~"`_
-- [x ] Crear una carpeta con el nombre. _`"examen372"`_ y colocate dentro de ella.
-- [x ] Crear un script con el nombre. _`"create.sh"`_
-- [ x] Colocar el shebang dentro del script desde la terminal: _`"#! /bin/bash"`_
-- [ x] Inicializa un repositorio vacio de git.
-- [ x] Crea un commit inicial con el mensaje _`"Initial commit, script added"`_ (el commit debe contener la version inicial del script).
+- [x] Coloca tu nombre aqui: _`"Karen Livier Orozco Franco"`_
+- [x] Abre el shell/terminal _`"Git Bash"`_
+- [x] Limpia el historial de tu consola: _`"history -c"`_
+- [x] Navega al directorio home del usuario. _`"~"`_
+- [x] Crear una carpeta con el nombre. _`"examen372"`_ y colocate dentro de ella.
+- [x] Crear un script con el nombre. _`"create.sh"`_
+- [x] Colocar el shebang dentro del script desde la terminal: _`"#! /bin/bash"`_
+- [x] Inicializa un repositorio vacio de git.
+- [x] Crea un commit inicial con el mensaje _`"Initial commit, script added"`_ (el commit debe contener la version inicial del script).
 
 ---
 
 ### Instrucciones dentro del script `create.sh` 🔡:
 
-1. [ x] Elimina la carpeta **webapp**. _`"rm -rf"`_
-2. [x ] Crea la siguiente estructura de carpetas _`"mkdir"`_:
+1. [x] Elimina la carpeta **webapp**. _`"rm -rf"`_
+2. [x] Crea la siguiente estructura de carpetas _`"mkdir"`_:
 
    ```
    .
@@ -43,7 +43,7 @@
        └── img
    ```
 
-3. [ x] Crea los archivos de la aplicación con el siguiente código (incluyelo en el script):
+3. [x] Crea los archivos de la aplicación con el siguiente código (incluyelo en el script):
 
    ```sh
    for file in index.html style.css app.js main.py
@@ -52,7 +52,7 @@
    done
    ```
 
-4. [ x] Una vez creados los archivos la carpeta se vera asi utiliza el siguiente comando si quieres ver en consola tu estructura `cmd //c tree //F ./`:
+4. [x] Una vez creados los archivos la carpeta se vera asi utiliza el siguiente comando si quieres ver en consola tu estructura `cmd //c tree //F ./`:
 
    ```
    .
@@ -70,13 +70,13 @@
 
    ```
 
-5. [ x] Descargar la imagen de internet con el siguiente comando:
+5. [x] Descargar la imagen de internet con el siguiente comando:
 
    ```sh
    curl -o meme.jpg "https://pm1.aminoapps.com/7021/417429318f6b29b6bc737fb95ba1ddafc9ba2decr1-720-642v2_hq.jpg"
    ```
 
-6. [ x] Guarda en una variable la cantidad de archivos de texto que creara el script y pon el siguiente código esto creara la cantidad de archivos .txt ingresada por consola:
+6. [x] Guarda en una variable la cantidad de archivos de texto que creara el script y pon el siguiente código esto creara la cantidad de archivos .txt ingresada por consola:
 
    ```sh
    read -p "Introduce la cantidad de archivos a crear:" numfiles
@@ -86,7 +86,7 @@
    done
    ```
 
-7. [x ] Verificar estructura con `"cmd //c tree //F ./"` debe verse de la siguiente manera
+7. [x] Verificar estructura con `"cmd //c tree //F ./"` debe verse de la siguiente manera
 
    ```
    .
@@ -113,16 +113,16 @@
 
    ```
 
-8. [x ] En este punto crea un segundo commit con el mensaje _`"Second commit, structure created"`_ que contiene la actualización del script (este comando no debe ser parte del script).
-9. [ x] En el script debe organizar la informacion moviendo los archivos a su respectiva carpeta usando el comando _`"mv"`_:
+8. [x] En este punto crea un segundo commit con el mensaje _`"Second commit, structure created"`_ que contiene la actualización del script (este comando no debe ser parte del script).
+9. [x] En el script debe organizar la informacion moviendo los archivos a su respectiva carpeta usando el comando _`"mv"`_:
 
-   - [ x] Mueve el archivo _`style.css`_ a la carpeta **`css`**
-   - [x ] Los archivos _`fileN.txt`_ a la carpeta **`docs/text`**
-   - [ x] El archivo _`main.py`_ a la carpeta **`docs/python`**
-   - [ x] El _`app.js`_ a la carpeta **`js`**
-   - [ x] Dejar _`index.html`_ en la ruta actual, dentro de **`webapp`**.
+   - [x] Mueve el archivo _`style.css`_ a la carpeta **`css`**
+   - [x] Los archivos _`fileN.txt`_ a la carpeta **`docs/text`**
+   - [x] El archivo _`main.py`_ a la carpeta **`docs/python`**
+   - [x] El _`app.js`_ a la carpeta **`js`**
+   -  [x] Dejar _`index.html`_ en la ruta actual, dentro de **`webapp`**.
 
-10. [ x] Al ejecutar `"cmd //c tree //F ./"` debe verse asi y concluye la programación del script:
+10. [x] Al ejecutar `"cmd //c tree //F ./"` debe verse asi y concluye la programación del script:
 
     ```
     .
@@ -151,14 +151,14 @@
 
 ---
 
-- [x ] Una vez completado el script ejecutarlo para validar que haga lo antes pedido: `./create.sh`
-- [ x] Mover este archivo `examen372.md` a la carpeta **`examen372`**
-- [x ] Renombrar el archivo `examen372.md` a README.md con la terminal _`"mv"`_
-- [ x] Registrar un tercer commit con el mensaje _`"Third commit, add README.md and final script updated"`_
-- [ x] Guardar el historial de sus comandos: _`history > history.txt`_
-- [ ] Registrar el último commit agregando el archivo del historial con el mensaje _`"Fourth commit, command history added"`_
-- [ x] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre _`examen372`_
-- [ x] Subir su carpeta al repositorio remoto con su famosisimo: _`git push`_ 🔥👀
+- [x] Una vez completado el script ejecutarlo para validar que haga lo antes pedido: `./create.sh`
+- [x] Mover este archivo `examen372.md` a la carpeta **`examen372`**
+- [x] Renombrar el archivo `examen372.md` a README.md con la terminal _`"mv"`_
+- [x] Registrar un tercer commit con el mensaje _`"Third commit, add README.md and final script updated"`_
+- [x] Guardar el historial de sus comandos: _`history > history.txt`_
+- [x] Registrar el último commit agregando el archivo del historial con el mensaje _`"Fourth commit, command history added"`_
+- [x] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre _`examen372`_
+- [x] Subir su carpeta al repositorio remoto con su famosisimo: _`git push`_ 🔥👀
 
 ---
 

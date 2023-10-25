@@ -151,14 +151,14 @@
 
 ---
 
-- [ ] Una vez completado el script ejecutarlo para validar que haga lo antes pedido: `./create.sh`
-- [ ] Mover este archivo `examen372.md` a la carpeta **`examen372`**
-- [ ] Renombrar el archivo `examen372.md` a README.md con la terminal _`"mv"`_
-- [ ] Registrar un tercer commit con el mensaje _`"Third commit, add README.md and final script updated"`_
-- [ ] Guardar el historial de sus comandos: _`history > history.txt`_
+- [x ] Una vez completado el script ejecutarlo para validar que haga lo antes pedido: `./create.sh`
+- [ x] Mover este archivo `examen372.md` a la carpeta **`examen372`**
+- [x ] Renombrar el archivo `examen372.md` a README.md con la terminal _`"mv"`_
+- [ x] Registrar un tercer commit con el mensaje _`"Third commit, add README.md and final script updated"`_
+- [ x] Guardar el historial de sus comandos: _`history > history.txt`_
 - [ ] Registrar el último commit agregando el archivo del historial con el mensaje _`"Fourth commit, command history added"`_
-- [ ] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre _`examen372`_
-- [ ] Subir su carpeta al repositorio remoto con su famosisimo: _`git push`_ 🔥👀
+- [ x] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre _`examen372`_
+- [ x] Subir su carpeta al repositorio remoto con su famosisimo: _`git push`_ 🔥👀
 
 ---
 

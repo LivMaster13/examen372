@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+}
+
+#cheems-img {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 4rem; /* Tamaño de fuente de 4rem */
+    color: #fff; /* Texto blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
